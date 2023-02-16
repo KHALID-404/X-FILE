@@ -15,7 +15,7 @@ bit = platform.architecture()[0]
 if bit == "64bit":
         os.system('xdg-open https://youtube.com/@Khalid_Vau')
  
-        from XFILE import approval
+        from PROFILE import approval
  
         approval()
  
