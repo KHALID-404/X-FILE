@@ -34,7 +34,7 @@ def linex():
 	print(16*'\033[1;92m═'+'\033[1;91m[\033[1;92mKHALID-404\033[1;91m]'+16*'\033[1;92m═')
 def Khalid():
 		clear()
-		print(f'\033[1;91m[\033[1;92m•\033[1;91m] [1] File Cloning \n [2] Random Cloning \n [3] Gmail Cloning \n [4] WhatsApp group(Join) \n [5] Follow my fb id \n [0] Exit')
+		print(f'\033[1;91m[\033[1;92m•\033[1;91m] [1] FILE CLONING\n [2] RANDOM CLONING \n [3] GMAIL CLONING\n [0] EXIT')
 		linex()
 		shm= input(f'\033[1;91m[\033[1;92m•\033[1;91m] CHOICE : {G}')
 		if shm =='1':
@@ -43,13 +43,6 @@ def Khalid():
 			r_crack()
 		elif shm =='3':
 			gmail()
-		elif shm =='4':
-			wp=('KpSthW03CQR0wOim0sKtFX')
-			os.system('xdg-open https://chat.whatsapp.com/CCx5u5coOHDAyOKpk9BxD8')
-			Khalid()
-		elif shm =='5':
-			os.system('xdg-open https://www.facebook.com/aayan.malik.5')
-			Khalid()
 		elif shm =='0':
 			exit('\033[1;94mTHANKS FOR USING MY TOOL ')
 		else:
